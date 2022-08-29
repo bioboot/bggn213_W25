@@ -15,7 +15,7 @@ barry:
     : Jasmin Revanna (Email: <jrevanna@ucsd.edu>)  
 
     Course Syllabus
-    : [Winter 2022 (PDF)](https://bioboot.github.io/bggn213_W22/class-material/BGGN213_W22_syllabus.pdf){:.no-push-state}
+    : [Fall 2022 (PDF)](https://bioboot.github.io/bggn213_W22/class-material/BGGN213_F22_syllabus.pdf){:.no-push-state}
     {:.message}
 
 #    : [Ileena Mitra](https://bioboot.github.io/bggn213_f17/ileenamitra@eng.ucsd.edu) (Email: <ileenamitra@eng.ucsd.edu>)
@@ -26,7 +26,7 @@ barry:
 
   # This photo will be used in the about section
   picture:
-    src:             /bggn213_W22/assets/img/logo.png
+    src:             /bggn213_F22/assets/img/logo.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     #srcset:
     #  1x:            https://placehold.it/128x128
@@ -39,8 +39,8 @@ barry:
   # Icons appear in order, can be rearranged:
   social:
     #twitter:         barryjgrant
-    piazza:          &piazza https://piazza.com/ucsd/winter2022/bggn213/home
-    gradescope:      &gradescope https://www.gradescope.com/courses/344256    
+    piazza:          &piazza https://piazza.com/class/l7f7lzjq7sj1fj
+    gradescope:      &gradescope https://www.gradescope.com/courses/433289    
     youtube:         &youtube https://www.youtube.com/playlist?list=PLtYfizZe9rnqfCkeChDDoYTbcTSkGwWoh
     email:           mailto:<bjgrant@ucsd.edu>
     # google:          <number>
@@ -96,11 +96,11 @@ ileena:
 #   The ampsand &piazza here is a varable asignment that can be access with 
 #   a *piazza later in this ymal data file.
 corelinks:
-  syllabus:       &syllabus /class-material/BGGN213_W22_syllabus.pdf
+  syllabus:       &syllabus /class-material/BGGN213_F22_syllabus.pdf
   piazza:         *piazza 
   gradescope:     *gradescope 
   youtube:        *youtube 
   questionnaire:  https://forms.gle/5kwBr8i27fw8bhEEA
-  gradebook:      https://docs.google.com/spreadsheets/d/14-Wo3mG84Sv06hQn2oDs6c_Mwi6F3NNLyqM6I7oCDww/edit?usp=sharing
+  gradebook:      https://docs.google.com/spreadsheets/d/1uQb4Vf1Ud6AxE5ps8AGX4qdRKnoaSjbHCSrVoyafVaE/edit?usp=sharing
   officehours:    https://ucsd.zoom.us/j/97520924322?pwd=OWwycDlZakpFNU9uRjVqOGw2c0xqZz09#success
-  officetime:     'Zoom on Thur @ 10am'
+  officetime:     'Zoom on Fir @ 4pm'
