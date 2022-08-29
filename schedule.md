@@ -6,7 +6,7 @@ order: 2
 ---
 
 
-For the Fall 2022 quarter we will meet twice a week on Tuesday and Thursday at 9:30-12:30 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}). Clicking on the topics below will take you to supporting class content including video lectures, hands-on “lab session” sheets, walk-through screencasts, required reading material and homework assignments.
+For the Fall 2022 quarter we will meet twice a week on Wednesday and Friday at 1:00-4:00 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}). Clicking on the topics below will take you to supporting class content including video lectures, hands-on “lab session” sheets, walk-through screencasts, required reading material and homework assignments.
 
 
 <br>
@@ -178,7 +178,7 @@ You may wish to consult the scoring rubric at the end of the above linked projec
 ---
 <a name="3"></a>
 
-## 3: (Optional extension) Advanced sequence alignment and database searching
+## 3: Advanced sequence alignment and database searching
 
 **Topics**:  
 Detecting remote sequence similarity, Substitution matrices, Database searching beyond BLAST with PSI-BLAST, Profiles and HMMs, Protein structure comparisons, Beginning with command line based database searches.
@@ -202,8 +202,8 @@ Detecting remote sequence similarity, Substitution matrices, Database searching 
 
 
 **Homework**:   
-- Optional [Questions](https://docs.google.com/document/d/1AjrDB-XdfZyJUZmA-_KEqkNB5P1iUrMkKyj8QjGRM50/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,   
-- **DataCamp**: Sign-up to our **F21_Bioinformatics group/organization** via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
+- [Questions](https://docs.google.com/document/d/1AjrDB-XdfZyJUZmA-_KEqkNB5P1iUrMkKyj8QjGRM50/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,   
+- **DataCamp**: Sign-up to our **f22_bioinformatics** group/organization via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
 
