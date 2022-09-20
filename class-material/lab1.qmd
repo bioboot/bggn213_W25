@@ -87,7 +87,7 @@ What type of sequence are you provided with?
 
 \TextField[name=Q1]{}
 
-`r fitb("nucleotide")`
+`r fitb(c("blastn","nucleotide", "nucleotide blast"), ignore_case=TRUE)`
 ::::
 
 \
@@ -501,32 +501,18 @@ Your comments will let us know which material needs to be further clarified and 
 
 ## Discussion
 
-The original paper discussing the 1HBS and 2HBS crystal structures is
-available online:
+The original paper discussing the 1HBS and 2HBS crystal structures is available online:
 
 [http://www.sciencedirect.com/science/article/pii/S0022283697912535](http://www.sciencedirect.com/science/article/pii/S0022283697912535)
 
-In this article, Figure 3 demonstrates how the Glu6-\>Val6 mutation
-could result in the characteristic "sickle" phenotype. The charged Glu6
-mutating to Val6 creates a superficial hydrophobic patch on one HbS
-molecule that interacts with hydrophobic surface residues of another.
-The molecules thus polymerize, creating extended fibers that distort the
-shape of the red blood cell.
+In this article, Figure 3 demonstrates how the Glu6-\>Val6 mutation could result in the characteristic "sickle" phenotype. The charged Glu6 mutating to Val6 creates a superficial hydrophobic patch on one HbS molecule that interacts with hydrophobic surface residues of another.
+The molecules thus polymerize, creating extended fibers that distort the shape of the red blood cell.
 
-Assessment of the disparate biochemical properties of normal and sickle
-haemgolobin, together with microscopy studies showing long crystal
-fibres inside sickle cells, led Linus Pauling (1949) to (correctly)
-predict the morphological effects of these changes. The abnormal sickle
-form causes the cells to clump together, hampering their passage through
-blood vessels, depriving tissues of oxygen. See this YouTube video for
-an illustration:
-[http://www.youtube.com/watch?v=Qd0HrY2NlwY](http://www.youtube.com/watch?v=Qd0HrY2NlwY)
+Assessment of the disparate biochemical properties of normal and sickle haemgolobin, together with microscopy studies showing long crystal fibres inside sickle cells, led Linus Pauling (1949) to (correctly) predict the morphological effects of these changes. The abnormal sickle form causes the cells to clump together, hampering their passage through blood vessels, depriving tissues of oxygen. See this YouTube video for an illustration: [http://www.youtube.com/watch?v=Qd0HrY2NlwY](http://www.youtube.com/watch?v=Qd0HrY2NlwY)
 
-The sickled blood cells have a short lifetime and cannot be replaced
-fast enough, leading to chronic anaemia. Sickle cell anemia was one of
-the first diseases to be linked to a defect at the molecular level,
-providing a clear demonstration that a single base mutation can change a
-single amino acid, which in turn can result in a defective protein.
+The sickled blood cells have a short lifetime and cannot be replaced fast enough, leading to chronic anaemia. Sickle cell anemia was one of the first diseases to be linked to a defect at the molecular level, providing a clear demonstration that a single base mutation can change a single amino acid, which in turn can result in a defective protein.
+
+Bluebird Bio as well as Vertex Pharmaceuticals and CRISPR Therapeutics have ongoing **sickle-cell gene therapy trials**. As noted in this [excellent recent easy in the New Yorker](https://www.newyorker.com/science/annals-of-medicine/are-we-about-to-cure-sickle-cell-disease): "There is something of a paradox in the fact that patients with sickle-cell disease — a population that has faced extraordinary levels of bias, neglect, and marginalization - may be among the first to have their illnesses transformed by the most cutting-edge of medical technologies". 
 
 \
 
