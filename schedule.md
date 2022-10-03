@@ -164,9 +164,9 @@ The [**find-a-gene project**]({{ site.baseurl }}/class-material/Find_A_Gene_Proj
  
 You may wish to consult the scoring rubric at the end of the above linked project description and the [**example report**]({{ site.baseurl }}/class-material/Find_A_Gene_Project_Example.pdf){:.no-push-state} for format and content guidance.  
  
-- Your responses to questions Q1-Q4 are due **Friday Feb 4th** (02/04/22) at 12pm San Diego time.   
+- Your responses to questions Q1-Q4 are due **in two weeks** time.   
  
-- The complete assignment, including responses to all questions, is due **Friday March 11th** (03/11/22) at 12pm San Diego time.  
+- The complete assignment, including responses to all questions, is due **Friday of week 10** at 12pm San Diego time.  
  
 - In both instances your PDF format report should be submitted to GradeScope. Late responses will not be accepted under any circumstances.    
 
@@ -194,9 +194,9 @@ Detecting remote sequence similarity, Substitution matrices, Database searching 
 **Material**:   
  
  - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-3-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/lecture-3-bggn213_small.pdf){:.no-push-state}{:target="_blank"},    
-- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab-3_online_form.pdf){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on section worksheet]({{ site.baseurl }}/class-material/lab3.pdf){:.no-push-state}{:target="_blank"},  
 - Bonus: [Alignment App](https://bioboot.github.io/bimm143_W20/class-material/nw/){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy Point Assessment](https://forms.gle/Xz6PxjTzwwZe3erv6){:.no-push-state}{:target="_blank"}.   
+- Feedback: [Muddy Point Assessment](https://forms.gle/TxSZcAG29qv84DEc6){:.no-push-state}{:target="_blank"}.   
   
 
 
