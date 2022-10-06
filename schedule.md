@@ -232,6 +232,7 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 - Cheat Sheet: [Base R overview]({{ site.baseurl }}/class-material/base-r.pdf){:target="_blank"}{:.no-push-state},
 - Lab: [Hands-on section]({{ site.baseurl }}/class-material/lab-4-bggn213/){:.no-push-state},  
 - Lab: [Video walk-through](https://youtu.be/ZKcmg1HLaAo){:target="_blank"}{:.no-push-state} focusing on introducing R data structures and core syntax,
+- Extra credit lab: [Introduction to data in R]({{ site.baseurl }}/class-material/lab4.pdf){:.no-push-state}{:target="_blank"},  
 - Optional extension: [Advanced conservation analysis of globins with R]({{ site.baseurl }}/class-material/globin_analysis){:.no-push-state} this demonstrates where we are going on our R learning journey. You should be able to do analysis like this on your own at the end of the course.  
 - Student Hours: [{{ site.data.authors.corelinks.officetime }}]({{ site.data.authors.corelinks.officehours }}){:.no-push-state}{:target="_blank"},   
 - Feedback: [Muddy point assessment](https://forms.gle/pGzaaSRGnQ1r9mrL9){:.no-push-state}{:target="_blank"},  
