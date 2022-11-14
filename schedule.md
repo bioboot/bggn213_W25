@@ -594,7 +594,7 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 
 
 **Homework**:   
-- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"} (complete PDF form with your answers, save, and submit to GradeScope),  
+- [Questions]({{ site.baseurl }}/class-material/HW8_unix_questions.pdf){:.no-push-state}{:target="_blank"} (complete PDF form with your answers, save, and submit to GradeScope under *"15. HW Class15 (Unix Basics)"*),  
 - No lab report due this week,  
 - DataCamp: [Introduction to the Unix shell](https://learn.datacamp.com/courses/introduction-to-shell){:.no-push-state}{:target="_blank"} (~4hrs).   
  
