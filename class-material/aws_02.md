@@ -5,9 +5,9 @@ layout: page
 Using your remote AWS instance (Part II)
 =============================================================
 
-**Week 8, Cloud computing part 2:**   
+**Class 15, Cloud computing part 2:**   
 Barry Grant &lt; <http://thegrantlab.org/> &gt;   
-2021-02-21   (21:43:01 PST on Sun, Feb 21)  
+2022-11-14   (16:04:17 PST on Mon, Nov 14)  
 {:.message}
 
 
@@ -20,8 +20,8 @@ command line on an Amazon Web Service (AWS) instance to do some familiar bioinfo
 
 In [Section 1](aws_01.html){:.no-push-state}{:target="_blank"} we also described the process of connecting to an [AWS](https://aws.amazon.com/ec2/) Elastic Compute Cloud (a.k.a. EC2) virtual machine *instance* (a.k.a computer in the cloud) through **SSH**. This is the same mechanism we would use to connect to any remote UNIX based computer. 
 
-However, due to the extra security protocols in place on AWS we needed to use a so-called *keyfile* along with our **ssh** command when we logged in. Note that normally when you access another UNIX based computer you will typically just provide a user-specific password to login. 
-.
+However, due to the extra security protocols in place on AWS we needed to use a so-called *keyfile* along with our **ssh** command when we logged in. Note that normally when you access another UNIX based computer you will typically just provide a user-specific password to login.  
+
 
 > **Side-Note:** Cryptographic keys are a secure way to authenticate (i.e. login) without having to use passwords. They consist of a pair of files called the **public key** and **private key**: the public part can be shared with whoever you'd like to authenticate with (in our case, AWS!), and the private part is kept "secret" on your machine. In our particular case AWS stores the public part of the key pair which can be thought of as *just like a house lock*. You will download and use the private part of the key pair which can be thought of as *just like a house key*. You can read more about key cryptography [here](https://en.wikipedia.org/wiki/Public-key_cryptography).
 
@@ -225,15 +225,17 @@ For data transfer we will first demonstrate the use of `scp` for **S**ecure **C*
 cd ~/Desktop/week10
 ```
 
-Now still on your local machine use **scp** to transfer the file or files you want copied across (N.B. You will need to substitute the IP address for the remote machine you are using for the *YOUR_IP_ADDRESS* in the command here just as we did with our initial login):
+Now still on *your local machine* use **scp** to transfer the file or files you want copied across (N.B. You will need to substitute the IP address for the remote machine you are using for the *YOUR_IP_ADDRESS* in the command here just as we did with our initial login):
 
 ```
 scp -i ~/Downloads/barry_bioinf.pem ubuntu@YOUR_IP_ADDRESS:~/work/mm-second.x.zebrafish.tsv .
 ```
 
-Note. Like **cp** and similar tools, the source is always the first argument, and the destination is always the second argument.
+Note. Like **cp** and similar tools, the source is always the first argument, and the destination is always the second argument.  
 
-## 9. Install R/RStudio on AWS!
+Now you can either jump to *Section 10* and analyze these results on your own computer or, optionally, install R and RStudio on your remote instance and examine them there (Section 9).  
+
+## 9. OPTIONAL: Install R/RStudio on AWS!
 
 If you want to analyze your data further on the remote machine (and why not, is likely bigger and faster after all) then we need to first install the software you want to use for the analysis you have in mind. The following section demonstrates how to install R and RStudio on your remote machine 
 
