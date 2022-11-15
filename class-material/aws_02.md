@@ -252,8 +252,8 @@ sudo apt-get update && sudo apt-get -y install gdebi-core r-base
 After that finishes, download and install RStudio:
 
 ```
-wget https://s3.amazonaws.com/rstudio-ide-build/server/bionic/amd64/rstudio-server-1.4.1043-amd64.deb
-sudo gdebi rstudio-server-1.4.1043-amd64.deb
+wget https://download2.rstudio.org/server/bionic/amd64/rstudio-server-2022.07.2-576-amd64.deb
+sudo gdebi rstudio-server-2022.07.2-576-amd64.deb
 ```
 
 After answering `yes` when prompted you should see a final line indicating that an RStudio server has started:
