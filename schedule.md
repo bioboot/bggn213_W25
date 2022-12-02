@@ -33,7 +33,7 @@ For the Fall 2022 quarter we will meet twice a week on Wednesday and Friday at 1
 | 16  | Fri 11/18/22  | [**Hands-on with Git and GitHub**](#16) <br> Why you should use a version control system, How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                                                                                                                                                                                      |
 | 17  | Wed 11/23/22  | [**Vaccination rate mini project**](#17) <br> A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                      |
 | 18  | Fri 11/25/22  | **Thanksgiving Holiday** <br> No class today.                                                                                               |
-| 19  | Wed 11/30/22  | [**Investigating pertussis resurgence mini project**](#19) <br> A topical mini-project using web-scraping,JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
+| 19  | Wed 11/30/22  | [**Investigating pertussis resurgence mini project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
 | 20 | Fri 12/02/22 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review, Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
 
 
@@ -671,9 +671,8 @@ Course review and feedback. Making a public facing GitHub pages portfolio of you
 
 **Supporting material:**
 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/slide_class16.pdf){:.no-push-state}{:target="_blank"}, 
-- Lab: [Hands-on with Git and GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
-- Ether-pad: [**Feedback**](https://etherpad.wikimedia.org/p/bggn213_W22){:.no-push-state}{:target="_blank"}. 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class19_F22.pdf){:.no-push-state}{:target="_blank"}, 
+- Ether-pad: [**Feedback**](https://board.net/p/bggn213_f22){:.no-push-state}{:target="_blank"}. 
   
 
 - Resource for going further: [Happy Git with R](https://happygitwithr.com/){:.no-push-state}{:target="_blank"},  
