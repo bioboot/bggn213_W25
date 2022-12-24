@@ -38,7 +38,7 @@ Course Director
 : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: [bjgrant@ucsd.edu](mailto:bjgrant@ucsd.edu))
 
 Course Syllabus
-: [Fall 2022 (PDF)]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state}
+: [Winter 2023 (PDF)]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state}
 {:.message}
 
  
