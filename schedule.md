@@ -166,7 +166,7 @@ You may wish to consult the scoring rubric at the end of the above linked projec
  
 - Your responses to questions Q1-Q4 are due **in two weeks** time.   
  
-- The complete assignment, including responses to all questions, is due **Friday of week 10** at 12pm San Diego time.  
+- The complete assignment, including responses to all questions, is due **Monday of week 10** at 12pm San Diego time.  
  
 - In both instances your PDF format report should be submitted to GradeScope. Late responses will not be accepted under any circumstances.    
 
