@@ -30,7 +30,7 @@ For the Winter 2023 quarter we will meet twice a week on Wednesday and Friday at
 | 13  |  Wed 02/22/23 | [**RNA-Seq mini project**](#13) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
 | 14  | Fri 02/24/23  | [**Hands-on with Git and GitHub**](#14) <br> Why you should use a version control system, How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                                                                                                                         |
 | 15  | Wed 03/01/23  | [**Essential UNIX for bioinformatics**](#15) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
-| 16  | Fri 03/03/23  | [**TBD**](#16) <br> To be determined.                                                                                                                                                                                                                                      |
+| 16  | Fri 03/03/23  | [**Analyzing sequencing data in the cloud**](#16) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.                                                                                                                                                                                                                      |
 | 17  | Wed 03/08/23  | [**Vaccination rate mini project**](#17) <br> A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for the exploratory analysis.                                                                                                                                                                                                                                      |
 | 18  | Fri 03/10/23  | **TBD** <br> To be determined.                                                                                               |
 | 19  | Wed 03/15/23  | [**Investigating pertussis resurgence mini project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
@@ -616,9 +616,13 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 
 ---
 <a name="16"></a>
-## 16: TBD.
+## 16: Analyzing sequencing data in the cloud
+  
+**Topics:** 
+A mini-project whre we use bespoke cloud computing resources to query, download, decompress and analyze large data sets from NCBI’s main Sequence Read Archive (SRA). Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.  
 
-To be updated.  
+- Lab: [Obtaining and processing SRA datasets on AWS]({{ site.baseurl }}/class-material/aws_03.html){:.no-push-state}{:target="_blank"},  
+- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
 
 
 
