@@ -622,7 +622,9 @@ Bioinformatics on the command line, Why do we use UNIX for bioinformatics? UNIX 
 A mini-project whre we use bespoke cloud computing resources to query, download, decompress and analyze large data sets from NCBI’s main Sequence Read Archive (SRA). Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.  
 
 - Lab: [Obtaining and processing SRA datasets on AWS]({{ site.baseurl }}/class-material/aws_03.html){:.no-push-state}{:target="_blank"},  
-- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}.  
+- AWS Console URL: [https://awsed.ucsd.edu/](https://awsed.ucsd.edu/){:.no-push-state}{:target="_blank"}. 
+- Paper: [“A Quick Guide to Organizing Computational Biology Projects"](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424){:.no-push-state}{:target="_blank"}.  
+
 
 
 
