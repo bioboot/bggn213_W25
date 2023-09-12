@@ -21,12 +21,20 @@ Regardless of your laptop type you will need to install the software described b
 ### An up-to-date **web browser** 
 Current versions of [Chrome](https://www.google.com/chrome/), [Firefox](http://www.mozilla.org/firefox/) and [Safari](Safari) are preferred.
 
+### The Zoom virtual meeting software  
+We will use [Zoom](https://ucsd.zoom.us) on a weekly basis for office hours and other meetings. Please make sure you have Zoom installed and running to allow you to join these meetings.   
 
 ### The data analysis environment **R** and **RStudio**
-R Binaries for Windows, MacOSX and Linux can be downloaded and installed from [CRAN](http://cran.r-project.org/index.html) (Comprehensive R Archive Network). If possible download the latest binary version of R for your operating system. As of course launch (Sept 18) the latest release (2020-06-22, "Taking Off Again") is R-4.0.2.  
+R Binaries for Windows, MacOSX and Linux can be downloaded and installed from [CRAN](http://cran.r-project.org/index.html) (Comprehensive R Archive Network). If possible download the latest binary version of R for your operating system. As of course launch (Sept 18) the latest release (2023-06-16, "Beagle Scouts") is R-4.3.1.  
 
-After installing R itself we recommend installing [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download) (version 1.3.0 or above), a slick visual interface for R. **N.B.** You will want the Open Source **FREE** version.
+After installing R itself we recommend installing [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download) (version 2023.06.2+561 or above), a slick visual interface for R. **N.B.** You will want the Open Source **FREE** version. If you have an older version of RStudio (without Quarto, i.e. pre-2023) you will benifit from updating.
 
+### RTools for windows
+PC users will benefit from installing [RTool](https://cran.r-project.org/bin/windows/Rtools/). This is needed for building R packages with C/C++/Fortran code from source - something we will describe later in the course. Look for the **Rtools42 installer** link. **N.B. Rtools is only needed for Windows users**.  
+
+
+### Xcode Command Line Tools (Mac only)
+Mac users will benefit from installing *Xcode Command Line Tools*. If you try to run any recognized command line tool in the Terminal application, macOS will prompt you to install these tools. For example. if you try to run `git --version` at the Terminal and don't have this software then you will be prompted to install. You can also install directly from the command line. Open your **Terminal** (found in `/Applications/Utilities`) and type the command `xcode-select --install` this will open a dialog for installation of the command line tools. Note that the time estimate for installation is usually ridiculously off so don't panic.  Also please don't worry if you don't know what this means yet as I will explain when we get to this point in the course.  
 
 
 ### The Bash Shell
@@ -36,56 +44,36 @@ Bash is a commonly-used UNIX shell that gives you the power to do simple tasks m
 
 **Linux:** There is no need to install anything.
 
-**Windows:** Install *Git for Windows* from <https://gitforwindows.org> by downloading their latest .exe installer file and then following the steps bellow:
-- Run your downloaded installer file (e.g. `Git-2.16.3-32-bit.exe` or above) by double clicking on it.
-- Click on "Next".
-- Click on "Next".
-- Select "*Use Git from the Windows Command Prompt*" and click on "Next".
-- Click on "Next".
-- Keep "*Checkout Windows-style, commit Unix-style line endings*" selected and click "Next".
-- Select "*Use Windows default console window*" selected and click on "Next".
-- Click on "Install" (this may take a little while).
-- Once done click on "Finish".
+**Windows:** Install *Git for Windows* from <https://gitforwindows.org> by downloading their latest .exe installer file, double click on the installer file, click "Next" and follow their default setup (latest version).  
 
 To check if your install worked you can click on the "*Windows Menu button*" > "*All Apps*" and scroll down to **Git** and click to expand and select **Git Bash**. This should open a mostly black command line window. Success!! We can go ahead and close this for now.    
 
 
-### Other Software
-In individual classes we will make use of the following software. Having these installed in advance of class start will be highly advantageous.   
 
-- [Cytoscape](https://cytoscape.org),  
-- [VMD](http://www.ks.uiuc.edu/Development/Download/download.cgi) , 
-- [MUSCLE](https://www.drive5.com/muscle/downloads.htm),
-- [MGL Tools](http://mgltools.scripps.edu/downloads).
-
-We will review each tools setup and configuration in class together as the need arises. However, we note from past experience that download time can be substantial on slow classroom WiFi networks - hence the recommendation to at least download before class start.   
 
 <!-- 
-### Text Editor
-When you're writing code, it's nice to have a text editor that is optimized for writing code, with features like automatic color-coding of key words. The default text editor on Mac OS X and Linux is usually set to Vim, which is not famous for being intuitive. if you accidentally find yourself stuck in it, try typing the **escape key**, followed by **:q!** (colon, lower-case 'q', exclamation mark), then hitting Return to return to the shell. Nano is a basic editor and the default that we will use during this course. 
+### Python
+I am adding this here for others as I (Barry) will not use this for my first week. Others can uncomment and add whatever they want here: 
+
+ Install the `Miniconda` package manager, which is highly recommended for python users and can also be used to manage your R dependencies. Miniconda philosophy is built around conda environments, which correspond to closed containers where all the versions of the different python/R dependencies are fixed. This structure highly benefits the reproducibility of the code, as each analysis can be done with an exclusively dedicated environment, which will not change any dependency version, even though the general python installation of the computer or a particular package is updated. **Please note that Miniconda installation differs between macOS and Windows users**.
 
 
-**Mac OS X:** nano should be pre-installed.
+```
+# Install Miniconda
+## macOS (Intel)
+system('wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-x86_64.sh')
+system('bash Miniconda3-latest-MacOSX-x86_64.sh')
 
-**Linux:** nano should be pre-installed.
+## macOS (Apple M1)
+system('wget https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh')
+system('Miniconda3-latest-MacOSX-arm64.sh')
 
-**Windows:** Nano can be installed as a plugin to mobaxterm (see above). First start mobaxterm and then in the mobaxterm terminal type: `mobapt` Pressing Return will bring up a panel listing available additions. Please select **nano** by clicking on its entry and then the “Install/Update” button.
- --> 
+## Windows
+# Download https://repo.anaconda.com/miniconda/Miniconda3-latest-Windows-x86_64.exe
+```
 
-### Using Jetstream
 
-Jetstream is a cloud-based on-demand virtual machine system funded by the National Science Foundation. It will provide us with UNIX based computers (what we call “virtual machine instances”) that look and feel just like a regular Linux workstation but with thousands of times the computing power!  
 
-We will cover configuring and connecting to Jetstream in class. You can also find detailed *step-by-step* instructions for:
+--> 
 
- - [Starting a Jetstream Computer Instance]({{ site.baseurl }}/jetstream/boot/),
- - [Logging in to jetstream from your local terminal]({{ site.baseurl }}/jetstream/login/),
- - [Adding password to a Jetstream instance]({{ site.baseurl }}/jetstream/ssh_changepassword/). 
 
-We will cover all of these together in class and thus no pre-class configuration is required.  
-
-<!--- Still to complete...
-### Why this class
-
-### The semi-flipped classroom
--->
