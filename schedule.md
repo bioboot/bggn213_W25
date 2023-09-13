@@ -143,7 +143,7 @@ Sequence Alignment and Database Searching: Homology, Sequence similarity, Local 
 - Submit your completed lab report (i.e. filled in PDF form) to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
 - *OPTIONAL:* Complete the following [Alignment Problem]({{ site.baseurl }}/class-material/wk2_homework.pdf){:.no-push-state}{:target="_blank"},  
 - For next week please [install R and RStudio](https://www.datacamp.com/community/tutorials/installing-R-windows-mac-ubuntu){:.no-push-state}{:target="_blank"},  
-- DataCamp: Sign-up to our **F21_Bioinformatics group/organization** via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"}.  
+- DataCamp: Sign-up to our [**24_bioinformatics** group/organization](https://app.datacamp.com/groups/24_bioinformatics/dashboard){:.no-push-state}{:target="_blank"} via the link on Piazza or in your UCSD email. We will use this from next week onward. However, feel free to get started with your first course [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"}.  
 
 
 
@@ -203,7 +203,7 @@ Detecting remote sequence similarity, Substitution matrices, Database searching 
 
 **Homework**:   
 - [Questions](https://docs.google.com/document/d/1AjrDB-XdfZyJUZmA-_KEqkNB5P1iUrMkKyj8QjGRM50/copy){:.no-push-state}{:target="_blank"} click and select "make a copy" then follow instructions,   
-- **DataCamp**: Sign-up to our [**w23_bggn213** group/organization](https://app.datacamp.com/groups/f22_bioinformatics/dashboard){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
+- **DataCamp**: Sign-up to our [**24_bioinformatics** group/organization](https://app.datacamp.com/groups/24_bioinformatics/dashboard){:.no-push-state}{:target="_blank"} via the link in your UCSD email and **start** (you do not have to finish yet) [**Introduction to R!**](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} (we will complete this next week).  
 - [RStudio and R download and setup]({{ site.baseurl }}/setup/).  
 
 
@@ -241,7 +241,7 @@ Why do we use R for bioinformatics? R language basics and the RStudio IDE, Major
 
 **Homework**:   
 - [Questions](https://forms.gle/CZB19o74X8oGqGjX8){:.no-push-state}{:target="_blank"},  
-- **DataCamp**: Complete the [Intermediate R](https://learn.datacamp.com/courses/intermediate-r){:.no-push-state}{:target="_blank"} course (4hrs).  
+- **DataCamp**: Make sure you have joined our DataCamp **24_bioinformatics** group and then complete the [Introduction to R!](https://learn.datacamp.com/courses/free-introduction-to-r){:.no-push-state}{:target="_blank"} course (4hrs).  
     
 
 
