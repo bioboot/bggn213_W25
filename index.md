@@ -8,31 +8,6 @@ more_projects: projects.md
 ---
 
 
-<br>
-
-<div style="background-color: #cfc ; padding: 10px; border: 1px solid green;">
-  <b>COVID-19:</b>  At the time of writing we are still in a major COVID-19 pandemic crisis. Whilst we are making every effort to support your learning in a safe in-person environment, we expect and require your help. Keeping our classroom community healthy takes all of us following campus safety requirements. You are expected to follow University public health requirements and pursue personal protection practices to protect yourself and the others around you from infection. These include:<p>
-<ul>
-<li> <b>Participating in the university’s daily screening process</b>.
-Everyone must complete a <a href="https://returntolearn.ucsd.edu/return-to-campus/testing-and-screening/student-screening-and-testing/index.html#daily-screening">Daily Symptom Screener</a>.</li>
-
-<li> <b>Participating in the university's testing program</b>.
-All students are required to participate in the <a href="https://returntolearn.ucsd.edu/return-to-campus/testing-and-screening/student-screening-and-testing/index.html#covid-testing">COVID-19 Testing program</a> in accordance with their vaccination status.</li>
-
-<li> <b>Wear a well-fitting mask</b> that covers your nose and mouth at all times.
-Everyone is required to wear masks indoors regardless of vaccination status. If you see someone not wearing a mask, or wearing it incorrectly, kindly ask them to mask up. If you have concerns please bring them to my attention.</li>
-
-<li> <b>Monitor potential exposures</b> and comply with contact tracing efforts.
-Look out for the daily updates and potential exposure list that the university sends out with building information and the dates of exposure.</li>
-
-<li> <b>Stay home if you’re feeling ill!</b>
-If you’re not feeling well, complete the symptom screener and if needed, get <a href="https://health.ucsd.edu/coronavirus/Pages/testing.aspx">tested for COVID-19</a>. Do not come to campus unless given the all-clear. When you are able please contact me and I will make every effort to support your continued learning. We are all susceptible to COVID-19 illness-related disruptions and I have designed this course with pandemic resilience in mind.</li>
-</ul></p>
-I will do everything possible to help ensure that instruction is as safe as possible. This means that if conditions change and in-person instruction is no longer deemed as safe as it could be by the University and public health officials, we will pivot immediately to remote teaching. My hope is that this course can remain in-person and regardless of delivery mode serve as a venue where we build a vibrant supportive learning community.
-
-The following UCSD website has many useful resources on <a href="https://returntolearn.ucsd.edu">returning to in-person learning</a>. 
-</div>
-
 ## Overview
 Bioinformatics - the application of computational and analytical methods to biological problems - is a rapidly maturing field that is driving the collection, analysis, and interpretation of the avalanche of data in modern life sciences and medical research.  
 
