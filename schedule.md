@@ -24,9 +24,9 @@ For the Fall 2023 quarter we will meet twice a week on Wednesday and Friday at 1
 | 7  | Wed 10/25/23 | [**Introduction to machine learning for Bioinformatics 1**](#7) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
 | 8| Fri 10/27/23 | [**Halloween Candy Mini-Project**](#8) <br> A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the exploratory analysis and visualization of high dimensional datasets.                                                                                                                                                                              |
 | 9  | Wed 11/01/23 | [**Unsupervised learning mini-project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
-| 10 | Fri 11/03/23  | [**Structural Bioinformatics (AlphaFold)**](#10) <br> Comparative structure and sequence analysis. The importance of Multiple Sequence Alignments (MSAs). Structure prediction with AlphaFold2 and the new age of structural biology. Working with sequence and structure data in R. (If time allows) Protein motion and conformational variants, Molecular simulation and small molecule docking and drug optimization.                                                                                                                                                                                                                                             |
-| 11| Wed 11/08/23 | [**Genome informatics and high throughput sequencing**](#11) <br> Searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC <br> **N.B.** This is an online session\!                                                                                                                                                                              |
-| 12  | Fri 11/10/23 | [**Veterans Day Holiday**](#12) <br> No class today.                                                                                                                                                                                                                                               |
+| 10 | Fri 11/03/23  | [**Structural Bioinformatics (pt1)**](#10) <br> Comparative structure and sequence analysis. The importance of Multiple Sequence Alignments (MSAs). Structure prediction with AlphaFold2 and the new age of structural biology. Working with sequence and structure data in R. (If time allows) Protein motion and conformational variants, Molecular simulation and small molecule docking and drug optimization.                                                                                                                                                                                                                                             |
+| 11| Wed 11/08/23 | [**AlphaFold and Structural Prediction (pt2)**](#11) <br> The new age of structural biology. Structure prediction with AlphaFold2 and the importance of learning from Multiple Sequence Alignments (MSAs). ESM-Fold and large language models for protein structure.                                                                                                                                                                              |
+| 12  | Fri 11/10/23 | [**Veterans Day Holiday/Genome informatics and high throughput sequencing review**](#12) <br> No in-person class today. <br> Review of searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC <br> **N.B.** This is an online session\!                                                                                                                                                                                                                                                |
 | 13  | Wed 11/15/23 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#13) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.                                                                                                                                                                                                                                               |
 | 14  |  Fri 11/17/23 | [**RNA-Seq mini project**](#14) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
 | 15  | Wed 11/22/23  | [**Hands-on with Git and GitHub**](#15) <br> Why you should use a version control system, How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                                                                                                                         |
@@ -447,12 +447,32 @@ A fun and topical mini-project with unsupervised learning analysis of halloween_
 
 
 **Homework**:   
-- Questions.  
+- Your Homework is to complete the lab session. 
+
 
 
 ---
 <a name="11"></a>
-## 11: Genome informatics
+## 11: Structure prediction with AlphaFold2 (Structural Bioinformatics pt2.)    
+
+**Topics:** 
+The new age of structural biology. Structure prediction with AlphaFold2 and the importance of learning from Multiple Sequence Alignments (MSAs). ESM-Fold and large language models for protein structure. Modeling protein energy as a function of structure.
+
+- Lab: [Protein Structure Prediction with AlphaFold]({{ site.baseurl }}/class-material/class11_alphafold.html){:.no-push-state}{:target="_blank"},  
+- AlphaFold: [ColabFold Notebook](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb){:target="_blank"},  
+- ESM-Fold: [Metagenomic Atlas Fold Sequence](https://esmatlas.com/resources?action=fold){:target="_blank"}.  
+- Slides: [Small PDF]({{ site.baseurl }}/class-material/structural_bioinformatics_pt2.pdf){:.no-push-state}{:target="_blank"}.  
+
+
+**Homework**:   
+- Your Homework is to complete the lab session. 
+
+
+
+
+---
+<a name="12"></a>
+## 12: Genome informatics
 
 
 **Topics:** 
@@ -467,10 +487,10 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 - Understand the SAM/BAM file format and the information it holds.  
 
 **Videos:**  
-- 11.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
-- 11.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
-- 11.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
-- 11.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
+- 12.1 - [Introduction to genomics](http://youtu.be/QWOYBFfsKIE){:.no-push-state}{:target="_blank"},   
+- 12.2 - [Sequencing methods](https://www.ibiology.org/techniques/dna-sequencing/){:.no-push-state}{:target="_blank"} from Jonathan Weissman (UCSF),    
+- 12.3 - [The basics of RNASeq work-flows](http://youtu.be/PCn9GiD4cUI){:.no-push-state}{:target="_blank"},   
+- 12.4 - Optional: [Lessons from the Human Genome Project](https://www.youtube.com/watch?v=qOW5e4BgEa4){:.no-push-state}{:target="_blank"}.   
 
 **Supporting material:**
 - Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/lecture-13-bggn213_large.pdf){:.no-push-state}{:target="_blank"}, [Small PDF]({{ site.baseurl }}/class-material/llecture-13-bggn213_small.pdf){:.no-push-state}{:target="_blank"},
@@ -490,12 +510,6 @@ Genome sequencing technologies past, present and future (Sanger, Shotgun, PacBio
 
 
 
-
-
-
----
-<a name="12"></a>
-## 12: Veterans Day Holiday
 
 
 ---
