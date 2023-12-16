@@ -23,15 +23,15 @@ A total of 35% of the course grade will be assigned based on the“find-a-gene p
 
 
 ## Final Exam:  
-There will be NO final exam for the Fall 2023 quarter.   
+There will be NO final exam for the Winter 2024 quarter.   
 
 ## Assignment due dates:
-A complete listing of class assignments along with anticipated due dates is [available here](https://docs.google.com/spreadsheets/d/1LIlTzzcraOyQfH-VKAavxzjModdomFEoFKTGf1HDPMA/edit?usp=sharing
+A complete listing of class assignments along with anticipated due dates is [available here](https://docs.google.com/spreadsheets/d/1kNnWUvlcRsLHvdncGEU__oMmB8aaRNDjnJ0AmSY31Ao/edit?usp=sharing
 ){:.no-push-state}{:target="_blank"}. Typically, assignments are due 12PM San Diego time on the Monday following class. Note that these dates are subject to change and will likely not be updated in the afore linked listing. Please see GradeScope for the most updated listing. As always, **"if in doubt, reach out"** and contact us on piazza.
 
 
 <br>
-<iframe width='100%' height='1150' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR1sHOyLrHW-S3DOW6aaBB4EVu9aIlSsSs6N00a_eozAdvGVbQrduVr4Z1ltbulCn_hapyuQ1fs9PlT/pubhtml?gid=442644877&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe width='100%' height='1150' src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR8CP476rTQM_eCG5CPKjcCRBJT5bB536my2m73GH3URCroOWdbrj1ClY0zSvG7uQcLTW8iHHzT4Mgp/pubhtml?gid=442644877&single=true&amp;widget=true&amp;headers=false"></iframe>
 <br>
 
 
@@ -40,7 +40,7 @@ Course Director
 : [Prof. Barry J. Grant](http://thegrantlab.org/) (Email: [bjgrant@ucsd.edu](mailto:bjgrant@ucsd.edu))
 
 Course Syllabus
-: [Fall 2023 (PDF)]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state}
+: [Winter 2024 (PDF)]({{ site.baseurl}}{{site.data.authors.corelinks.syllabus}}){:.no-push-state}
 {:.message}
 
  
