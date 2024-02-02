@@ -22,8 +22,8 @@ For the Winter 2024 quarter we will meet twice a week on Wednesday and Friday at
 | 5  | Wed 01/24/24  | [**Data exploration and visualization in R**](#5) <br> The exploratory data analysis mindset, Data visualization best practices, Simple base graphics (including scatterplots, histograms, bar graphs, dot chats, boxplots and heatmaps), Building more complex charts with ggplot.                                                                                                                                                                                                                                                        |
 | 6  | Fri 01/26/24 | [**Why, when and how of writing your own R functions**](#6) <br> The basics of writing your own functions that promote code robustness, reduce duplication and facilitate code re-use. Extending functionality and utility with R packages from CRAN and BioConductor, Working with Bio3D for molecular data.                                                                                                                                                                                                                                                                                       |
 | 7  | Wed 01/31/24 | [**Introduction to machine learning for Bioinformatics 1**](#7) <br> Unsupervised learning, K-means clustering, Hierarchical clustering, Heatmap representations. Dimensionality reduction, Principal Component Analysis (PCA)                                                                                                                                                                                                                                            |
-| 8| Fri 02/02/24 | [**Halloween Candy Mini-Project**](#8) <br> A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the exploratory analysis and visualization of high dimensional datasets.                                                                                                                                                                              |
-| 9  | Wed 02/07/24 | [**Unsupervised learning mini-project**](#9) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
+| 8  | Fri 02/02/24 | [**Unsupervised learning mini-project**](#8) <br> Longer hands-on session with unsupervised learning analysis of cancer cells further highlighting Practical considerations and best practices for the analysis and visualization of high dimensional datasets                                                                                                                                                                                                            |
+| 9 | Wed 02/07/24 | [**Halloween Candy Mini-Project**](#9) <br> A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the exploratory analysis and visualization of high dimensional datasets.                                                                                                                                                                              |
 | 10 | Fri 02/09/24  | [**Structural Bioinformatics (pt1)**](#10) <br> Comparative structure and sequence analysis. The importance of Multiple Sequence Alignments (MSAs). Structure prediction with AlphaFold2 and the new age of structural biology. Working with sequence and structure data in R. (If time allows) Protein motion and conformational variants, Molecular simulation and small molecule docking and drug optimization.                                                                                                                                                                                                                                             |
 | 11| Wed 02/14/24 | [**AlphaFold and Structural Prediction (pt2)**](#11) <br> The new age of structural biology. Structure prediction with AlphaFold2 and the importance of learning from Multiple Sequence Alignments (MSAs). ESM-Fold and large language models for protein structure.                                                                                                                                                                              |
 | 12  | Fri 02/16/24 | [**Genome informatics and high throughput sequencing review**](#12) <br> No in-person class today. <br> Review of searching genes and gene functions, Genome databases, Variation in the Genome, High-throughput sequencing technologies, biological applications, bioinformatics analysis methods; The Galaxy platform along with resources from the EBI & UCSC <br> **N.B.** This is an online session\!                                                                                                                                                                                                                                                |
@@ -378,22 +378,9 @@ Unsupervised learning, supervised learning and reinforcement learning; Focus on 
 
 ---
 <a name="8"></a>
-## 8: Halloween Candy Mini-Project
-
-**Topics:** 
-A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
-
-- Lab: [Mini-Project: Exploratory analysis of Halloween cand]({{ site.baseurl }}/class-material/Halloween_candy.html){:.no-push-state}{:target="_blank"}.   
 
 
-
-
-
----
-<a name="9"></a>
-
-
-## 9: Unsupervised Learning Mini-Project  
+## 8: Unsupervised Learning Mini-Project  
 **Topics**: Hands-on project session with unsupervised learning analysis of cancer cells, Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
 
 **Goals**:   
@@ -412,6 +399,19 @@ A fun and topical mini-project with unsupervised learning analysis of halloween_
 **Homework**:   
 - Submit your completed PDF lab report to [GradeScope]({{ site.data.authors.corelinks.gradescope }}){:.no-push-state}{:target="_blank"},  
 - DataCamp: Complete [Introduction to the Tidyverse](https://learn.datacamp.com/courses/introduction-to-the-tidyverse){:.no-push-state}{:target="_blank"} (~4hrs).   
+
+
+
+---
+<a name="9"></a>
+## 9: Halloween Candy Mini-Project
+
+**Topics:** 
+A fun and topical mini-project with unsupervised learning analysis of halloween_candy, Practical considerations and best practices for the analysis and visualization of high dimensional datasets.  
+
+- Lab: [Mini-Project: Exploratory analysis of Halloween cand]({{ site.baseurl }}/class-material/Halloween_candy.html){:.no-push-state}{:target="_blank"}.   
+
+
 
 
 ---
