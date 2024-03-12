@@ -33,7 +33,7 @@ For the Winter 2024 quarter we will meet twice a week on Wednesday and Friday at
 | 16  | Fri 03/01/24  | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
 | 17  | Wed 03/06/24  | [**Analyzing sequencing data in the cloud**](#17) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.                                                                                                                                                                                                                      |
 | 18  | Fri 03/08/24  | [**Investigating pertussis resurgence mini project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
-| 19  | Wed 03/13/24  | [**CMI-PB prediction challenge**](#19) <br> Using machine learning to predict the immune response to vaccination using CMI-PB data.                                                                                                                                    |
+| 19  | Wed 03/13/24  | [**Cancer mutation analysis mini project**](#19) <br> A mini-project putting together skills from different classes for the independent analysis of NGS data on tumor specific mutations.                                                                                                                                   |
 | 20 | Fri 03/15/24 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review, Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
 
 
@@ -674,20 +674,20 @@ A topical mini-project using web-scraping, JSON based APIs and advanced dplyr an
 
 ---
 <a name="19"></a>
-## 19: Mini Project: CMI-PB Prediction Challenge  
+## 19: Mini Project: Cancer Mutation Analysis 
 
 **Topics:** 
-A topical mini-project using machine learning to predict the immune response to pertussis vaccination. Using the tidymodels package. This class will be co-taught with **Dr. Bjoern Peters** from the La Jolla Institute for Immunology.  
+A mini-project for independent analysis of NGS data on tumor specific mutations.   
 
-- Lab: [Investigating pertussis resurgence mini-project](https://bioboot.github.io/cmi-pb_teaching/introduction/intro_to_cmi-pb.html){:.no-push-state}{:target="_blank"} **submit your lab report to gradescope**, 
-- Lecture Slides: [Large PDF](https://bioboot.github.io/cmi-pb_teaching/slides/slides_class18_2update.pdf){:.no-push-state}{:target="_blank"},  
-- Additional resources: [CDC pertussis tracking data](https://www.cdc.gov/pertussis/surv-reporting/cases-by-year.html){:.no-push-state}{:target="_blank"}, The [CMI-PB resource]( https://www.cmi-pb.org/){:.no-push-state}{:target="_blank"}, Pertussis [annotated timeline](https://bioboot.github.io/cmi-pb_teaching/timeline/pertussis_timeline.html){:.no-push-state}{:target="_blank"},  
-- Feedback: [**Feedback for Bjoern**](https://forms.gle/SAVof9Hev7V6Ym7k7){:.no-push-state}.
+- Lab: [Class 19 labsheet PDF]({{ site.baseurl }}/class-material/lab19.pdf){:.no-push-state}{:target="_blank"},  
+- Additional resources: [Student Specific Sequences]({{ site.baseurl }}/class-material/lab19_sequence_listing.html){:.no-push-state}{:target="_blank"},  
+- Feedback: [Muddy-Point-Assessment](){:.no-push-state}.
 
 
 **Homework**:   
--  Generate a complete lab report with all sections and question responses for submission to gradescope.  
+- Upload your completed labsheet PDF to GradeScope.  
 - There are no homework quiz questions this week.
+
 
 
 ---
