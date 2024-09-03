@@ -1,6 +1,6 @@
 ---
 layout: welcome
-title: Bioinformatics <br> (BGGN 213, Winter 2024)
+title: Bioinformatics <br> (BGGN 213, Fall 2024)
 selected_projects:
   - _projects/welcome-screencast.md
   - _projects/using-jetstream-for-bioinformatics.md
@@ -42,7 +42,7 @@ To fully participate in this course students will be expected to use their own l
 All announcements regarding the course will be by email to your UCSD address.  We will also be using [Piazza]({{site.data.authors.corelinks.piazza}}){:target="_blank"} to facilitate course communication, particularly around questions and answers. If you have a question outside of class or office hours, first check if it has already been asked on Piazza and if not post there. If you have a question or concern you don’t feel comfortable posting on Piazza feel free to reach out via email.  
 
 ## Office hours:  
-We will use [Zoom](https://ucsd.zoom.us/){:target="_blank"} on a weekly basis at a time to be determined from student polling. For now email me for a time and we will make it happen.
+We will have in-person and [Zoom](https://ucsd.zoom.us/){:target="_blank"} office hours on a weekly basis at a time to be determined from student polling. For now email me for a time and we will make it happen.
     
 
 ## Textbook:  
