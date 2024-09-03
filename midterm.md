@@ -18,12 +18,12 @@ Specific grading criteria (assessment rubrics) for each homework will be given a
 
 
 ## Find a gene project assignment:  
-A total of 35% of the course grade will be assigned based on the“find-a-gene project assignment”. The purpose of this project assignment is for you to grasp the principles of database searching, sequence analysis, functional annotation and exploratory data analysis with R that we cover in the course  
-- Mid term example [assignment instructions (PDF)]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state}.
+A total of 35% of the course grade will be assigned based on the“find-a-gene project assignment”. The purpose of this project assignment is for you to grasp the principles of database searching, sequence analysis, functional annotation and exploratory data analysis with R that we cover in the course. Your finial project submission is due the Monday of Week 10.  
+- Example questions [old worked example (PDF)]({{ site.baseurl }}/class-material/Find_A_Gene_Project.pdf){:.no-push-state}.  Note that quite a few questions have changed and you should refer to the latest version on the [Schedule page]({{ site.baseurl }}/class-material/schedule/#21){:.no-push-state}.
 
 
 ## Final Exam:  
-There will be NO final exam for the Winter 2024 quarter.   
+There will be NO final exam for the current quarter.   
 
 ## Assignment due dates:
 A complete listing of class assignments along with anticipated due dates is [available here](https://docs.google.com/spreadsheets/d/1beO0_kZGsZevErpnOFAq8W_5VOQ9JsLJVQzYgW8rAXc/pubhtml){:.no-push-state}{:target="_blank"}. Typically, assignments are due 12PM San Diego time on the Monday following class. Note that these dates are subject to change and will likely not be updated in the afore linked listing. Please see GradeScope for the most updated listing. As always, **"if in doubt, reach out"** and contact us on piazza.
