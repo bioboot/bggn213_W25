@@ -6,12 +6,12 @@ order: 2
 ---
 
 
-For the Winter 2024 quarter we will meet twice a week on Wednesday and Friday at 1:00-4:00 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}). Clicking on the topics below will take you to supporting class content including video lectures, hands-on “lab session” sheets, walk-through screencasts, required reading material and homework assignments.
+For the Fall 2024 quarter we will meet twice a week on Wednesday and Friday at 1:00-4:00 pm in TATA 2501 ([Map](https://goo.gl/maps/Cd8z9Zexx6q){:target="_blank"}). Clicking on the topics below will take you to supporting class content including video lectures, hands-on “lab session” sheets, walk-through screencasts, required reading material and homework assignments.
 
 
 <br>
 
-| \# | Date         | Topics for Winter 2024                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| \# | Date         | Topics for Fall 2024                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | :-: | :-----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | 0  | - | [**Getting Oriented**](#0) <br> Course introduction, Learning goals & expectations, Meet the instructional team. Setup your computer with required software.                                                                                                                                               |
 | 1  | Wed 10/02/24 | [**Welcome to Bioinformatics**](#1) <br> Biology is an information science, History of Bioinformatics, Types of data, Application areas and introduction to upcoming course segments, Hands on with major Bioinformatics databases and key online NCBI and EBI resources                                                                                                                                               |
@@ -32,7 +32,7 @@ For the Winter 2024 quarter we will meet twice a week on Wednesday and Friday at
 | 15  | Wed 11/20/24  | [**Hands-on with Git and GitHub**](#15) <br> Why you should use a version control system, How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                                                                                                                         |
 | 16  | Fri 11/22/24  | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
 | 17  | Wed 11/27/24  | [**Analyzing sequencing data in the cloud**](#17) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.                                                                                                                                                                                                                      |
-| 18  | Fri 11/29/24  | [**Thanksgiving holiday**](#19) <br> No class today. Happy Thanksgiving!   |
+| 18  | Fri 11/29/24  | [**Thanksgiving holiday**](#18) <br> No class today. Happy Thanksgiving!   |
 | 19  | Wed 12/04/24  | [**Investigating pertussis resurgence mini project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
 | 20 | Fri 12/06/24 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review, Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
 
@@ -640,22 +640,31 @@ A mini-project whre we use bespoke cloud computing resources to query, download,
 
 
 ---
-<a name="99"></a>
-## X: Vaccination rate mini project
+<a name="18"></a>
+## 18: Thanksgiving holiday
+
+
+---
+<a name="22"></a>
+## SKIPED: Mini Project: Cancer Mutation Analysis 
 
 **Topics:** 
-A topical mini-project using ggplot and dplyr on with the latest state wide COVID-19 vaccination data. Practical considerations and best practices for exploratory data analysis.  
+A mini-project for independent analysis of NGS data on tumor specific mutations.   
 
-- Lab: [COVID-19 vaccination rates mini-project]({{ site.baseurl }}/class-material/vaccines.html){:.no-push-state}{:target="_blank"} **submit your lab report to gradescope**,  
-- Data files: [Statewide COVID-19 Vaccines Administered by ZIP Code](https://data.ca.gov/dataset/covid-19-vaccine-progress-dashboard-data-by-zip-code){:.no-push-state}{:target="_blank"}, 
+- Lab: [Class 19 labsheet PDF]({{ site.baseurl }}/class-material/lab19.pdf){:.no-push-state}{:target="_blank"},  
+- Additional resources: [Student Specific Sequences]({{ site.baseurl }}/class-material/lab19_sequence_listing.html){:.no-push-state}{:target="_blank"},  
+- Feedback: [Muddy-Point-Assessment](){:.no-push-state}.
 
 
+**Homework**:   
+- Upload your completed labsheet PDF to GradeScope.  
+- There are no homework quiz questions this week.
 
 
 
 ---
-<a name="18"></a>
-## 18: Mini Project: Investigating Pertussis Resurgence 
+<a name="19"></a>
+## 19: Mini Project: Investigating Pertussis Resurgence 
 
 **Topics:** 
 A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to distinct vaccination strategies. This class will be co-taught with **Dr. Bjoern Peters** from the La Jolla Institute for Immunology.  
@@ -670,23 +679,6 @@ A topical mini-project using web-scraping, JSON based APIs and advanced dplyr an
 -  Generate a complete lab report with all sections and question responses for submission to gradescope.  
 - There are no homework quiz questions this week.
 
-
-
----
-<a name="19"></a>
-## 19: Mini Project: Cancer Mutation Analysis 
-
-**Topics:** 
-A mini-project for independent analysis of NGS data on tumor specific mutations.   
-
-- Lab: [Class 19 labsheet PDF]({{ site.baseurl }}/class-material/lab19.pdf){:.no-push-state}{:target="_blank"},  
-- Additional resources: [Student Specific Sequences]({{ site.baseurl }}/class-material/lab19_sequence_listing.html){:.no-push-state}{:target="_blank"},  
-- Feedback: [Muddy-Point-Assessment](){:.no-push-state}.
-
-
-**Homework**:   
-- Upload your completed labsheet PDF to GradeScope.  
-- There are no homework quiz questions this week.
 
 
 
