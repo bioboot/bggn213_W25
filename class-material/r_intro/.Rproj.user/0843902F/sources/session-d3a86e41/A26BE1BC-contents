@@ -1,0 +1,417 @@
+---
+format:
+  live-revealjs:
+    theme: [simple, slides.scss]
+    footer: <http://thegrantlab.org/teaching/>
+title: R Language Basics
+subtitle: (Part 1)
+author: Barry Grant
+institute: UC San Diego
+logo: images/logo.png
+webr:
+  cell-options:
+    fig-width: 11
+    fig-height: 6
+    max-lines: 5
+    autorun: false
+---
+
+
+
+
+## Background
+
+R is a powerful data programming language that you can use to explore and understand data in an open-ended, highly interactive, iterative way.  
+<br/>
+Learning R will give you the freedom to experiment and problem solve during data analysis — exactly what we need as bioinformaticians.
+
+
+## Outline 
+Before delving into working with real data in R, we need to learn the basics of the R language. 
+In this section, we'll learn how to do simple calculations in R, assign values to variables, and call functions. 
+
+<br/>
+Then, in part 2, we'll look at R's vectors and data.frames, along with the critically important topic of vectorization that underpins how we approach many problems in R.
+
+
+
+## Logistics
+Below is a interactive "Exercise" **code chunk** that you can edit and run by clicking the [> Run Code]{style="color:white;background-color:#0F6EFD;padding: 0.5px 4px 0.5px 4px;"} button. 
+
+<br/>
+Give it a try:
+
+
+```{webr}
+#| exercise: ex
+#| autorun: false
+#| caption: Example Exercise
+# Click the Play button to run this code
+5 + 3
+```
+
+## Checking your understanding
+
+We will use these types of code chunks to ask you to complete some missing code, typically indicated by the blank [______]{style="color:black;"} place holder.  
+</br>
+For example, complete the code below so your answer sums to 10:
+
+```{webr}
+#| exercise: ex_1
+#| caption: Exercise fill in the blank
+5 + 3 + ______
+```
+
+::: { .hint exercise="ex_1"}
+::: { .callout-note collapse="false"}
+## Hint
+
+Your job here is to replace the `______` blank with your answer, in this case a number, so the final answer sums to 10. Give it a try and be sure to run the code chunk to see if you are correct.
+
+:::
+:::
+
+::: { .solution exercise="ex_1" }
+::: { .callout-tip collapse="false"}
+## Solution: note no high level math is required for this class ;-)
+
+```r
+5 + 3 + 2                                 #<1>
+```
+1. You can copy/paste this answer to check how things work. However, I strongly suggest you **try things for yourself first**. Past experience indicates that you don't learn much from copy and pasting without trying things for yourself first.
+
+
+:::
+:::
+
+
+```{webr}
+#| exercise: ex_1
+#| check: true
+
+
+if (identical(.result, 5+3+2)) {
+  list(correct = TRUE, message = "Nice work!")
+} else {
+  list(correct = FALSE, message = "That's incorrect, sorry. Your answer should sum to 10.")
+}
+```
+
+
+## Where are we going with this... {background="#43464B"}
+
+OK, so R is a big calculator but it is also so much more than that. For example, we will see soon that R can do complicated statistical analysis on big datasets that you would never want to use a calculator for. 
+
+<br/>
+What's more R allows you to do your analysis in a robust and re-usable way so you can automate things later. 
+
+<br/>
+At the heart of this is saving your answers as you go along (a.k.a. **object assignment**).
+
+
+## Object assignment - saving your answers 
+
+Lets make an assignment and then inspect the object you just created.
+
+</br>
+
+```{webr}
+#| exercise: ex_2
+#| autorun: false
+x <- 3 * 4  
+x
+```
+
+</br>
+
+> All R statements where you create objects have this form:
+> ```
+> objectName <- value  
+> ```
+> and in my head I hear, e.g., "x gets 12".
+
+
+## Key point: {.key-slide}
+
+You will make lots of assignments and the little arrow operator `<-` is a pain to type. **Don't be lazy and use `=`**, although it would work, because it will just sow confusion later when we learn about functions. 
+
+</br>
+
+> In *RStudio* folks will often utilize the keyboard shortcut: `Alt` + `-` (that is pushing the `Alt` and `minus` keys together or the `Option` and `minus` keys if you are on a Mac).
+
+
+## Side note about object names... {.nb-slide}
+
+Object names cannot start with a digit and can not contain certain other "special" characters such as a comma or a space. 
+
+</br>
+You will be wise to adopt a [convention for demarcating words](http://en.wikipedia.org/wiki/Snake_case) in names so as to avoid spaces, for example:
+
+</br>
+
+```
+i_use_snake_case  
+other.people.use.periods  
+evenOthersUseCamelCase  
+only-crazy-folks-use-kabab-case 
+```
+
+
+
+## Typing fedility matters
+Let's make another assignment
+
+</br>
+
+```{webr}
+r_rocks <- 2 ^ 3  
+```
+
+</br>
+and then try to inspect this object:
+
+</br>
+
+```{webr}
+#| exercise: ex_3
+#| autorun: false
+rrocks
+R_rocks
+```
+
+
+What happened? What about the 2nd line? Did you run both chunks? Can you fix this?
+
+
+## Key point: {.key-slide}
+
+When we program we enter into an implicit contract with the computer. The computer will do tedious computation for you. In return, you will be completely precise in your instructions. 
+
+</br>
+Typos matter. Case matters. The order that you do things matters. 
+
+</br>
+**Therefore get better at typing!**
+
+---
+
+## Functions
+
+Being productive in R is all about using functions - we call functions when we read a dataset, perform a statistical analysis, make a fancy visualization or do just about anything else. 
+
+</br>
+All functions are accessed like so:
+
+</br>
+
+```
+functionName(arg1 = val1, arg2 = val2, and so on)
+```
+</br>
+Notice that we use the `=` sign here for setting function inputs (a.k.a. setting function "arguments") and that each one is separated by a comma.  
+
+
+## Calling functions
+Let's try using the `seq()` function, which makes regular sequences of numbers:
+
+</br>
+
+```{webr}
+#| exercise: ex_4
+#| autorun: false
+seq(1,10)  
+```
+
+</br>
+You can always access the help/documentation of a particular function by using the `help(myFunction)` function, e.g. `help(seq)`. Try it out above.
+
+
+## Key point: {.key-slide}
+
+The previous `seq(1, 10)` example above also demonstrates something about how R resolves function arguments. 
+
+</br>
+You can always specify in `name = value` form. But if you do not, R attempts to resolve by position (1st argument, 2nd argument, etc.). 
+
+</br>
+So above, it is assumed that we want a sequence `from = 1` that goes `to = 10`. Since we didn't specify step size, the default value of `by` in the function definition is used, which ends up being 1 in this case. 
+
+---
+
+What does the following command do?
+
+</br>
+
+```{webr}
+#| exercise: ex_5
+#| autorun: false
+seq(1,10, by=2)  
+```
+
+</br>
+Run it and see. Could you of figured out this result from the documentation accessed via the command `help(seq)`? 
+
+
+## Side note {background="#43464B"}
+One very useful part of a functions documentation is the **Examples** section (typically found at the very end of the documentation entry).
+
+You can copy and paste these into your session or execute them all in one go with the `examples()` function, e.g.
+
+```{webr}
+example(seq)
+```
+
+
+## Key point: {.key-slide}
+
+R has built in help accessible with the question mark or `help()` function. 
+
+However, it is rather heavy on nerd-speak and takes some getting used to. 
+
+</br> 
+
+> Remember Google and ChatGPT are your friends. Asking Google and ChatGPT is often the quickest way to get the help you need before you are full on nerd-speak fluent.  
+
+
+## Vectors
+
+Vectors are the most fundamental data structures in R. Their job is to hold a contiguous collection of *"elements"* of the same *"type"*. 
+
+</br>
+For example a set of numbers (what we call **numeric** type), words (**character** type) or True and False vales (**logical** type).
+
+To create vectors we combine values with the function `c()`:
+```{webr}
+#| exercise: ex_6
+x <- c(1, 5, 3, 4, 2) 
+y <- c("G","A","C","A")
+z <- c(TRUE, FALSE, TRUE, TRUE)
+x + 10
+```
+
+---
+
+
+
+## Vectorization
+
+Vectors are the basis of one of R's most important features: **vectorization**. Vectorization allows us to loop over all elements in a vector without the need to write an explicit loop. 
+
+</br>
+For example, R's arithmetic operators (and tones of other functions) are all vectorized:
+
+```{webr}
+#| exercise: ex_7
+x <- c(1, 10, 5)
+x + 10
+```
+
+```{webr}
+#| exercise: ex_8
+log(x)/2 + 1 
+# note how we can combine vectorized operations
+```
+
+
+## Key point: {.key-slide}
+
+Unlike other languages, R allows us to completely forgo explicitly looping over vectors with a for loop. 
+
+</br>
+
+> Later on, we'll see other methods used for more explicit looping. For now I want you to appreciate that the *vectorized approach* is not only more **clear** and **readable** but it’s also computationally **faster**.
+
+
+## Indexing - getting to subsets of your data
+
+An index is a number (or logical) vector that specifies which element in a vector (or other data structure) to retrieve. 
+
+</br>
+We can use **indexing** to get or set values to certain elements from a vector:
+
+```{webr}
+#| exercise: ex_9
+# Access the 2nd element of x
+x <- c(56, 95.3, 0.4)
+x[2]
+```
+
+---
+
+We can change specific vector elements by combining indexing and assignment.
+
+</br>
+
+```{webr}
+#| exercise: ex_10
+x <- c(56, 95.3, 0.4)
+x[3] <- 0.5
+x
+```
+
+</br>
+
+Our next session will cover more on **vectors**, and the other major R data structures (**matrices**, **data.frames** and **lists**).
+
+## Data.frames combine vectors into tables
+
+A data.frame is a table (or two-dimensional array-like structure) where columns can contain different types of data (numeric, character, logical, etc.).
+
+</br>
+
+Data.frames are ideal for managing and analyzing datasets with rows and columns.
+
+```{webr}
+#| exercise: ex_11
+df <- data.frame(column1 = c("A", "B", "C"), column2 = c(10, 200, 3))
+df
+```
+
+## Indexing a data.frame
+
+We can use numeric or logical index values for subseting a data.frame, similer to those we used for vectors.
+
+
+```{webr}
+#| exercise: ex_12
+df <- data.frame(column1 = c("A", "B", "C"), column2 = c(10, 200, 3))
+df[1,]
+df[1,2]
+```
+
+You can also access specific columns via their column name: 
+
+```{webr}
+#| exercise: ex_13
+df <- data.frame(column1 = c("A", "B", "C"), column2 = c(10, 200, 3))
+df$column1
+```
+
+
+## Errors, warnings, and messages
+
+R will show red text in the console pane in three different situations:
+
+- **Errors**: When the red text is a legitimate error, it will be prefaced with "Error in…" and will try to explain what went wrong. Generally when there's an error, the code will not run.
+
+- **Warnings**: When the red text is a warning, it will be prefaced with "Warning:' and R will try to explain why there's a warning. Generally your code will still work, but with some caveats. 
+
+- **Messages**: When the red text doesn't start with either "Error" or "Warning", it's just a friendly message. You'll see these messages when you load R packages for example. 
+
+
+
+## Key point: {.key-slide}
+
+R reports errors, warnings, and messages in a glaring red font, which makes it seem like it is scolding you. 
+
+</br>
+**Don't panic**, it doesn't necessarily mean anything is wrong and indeed it is not always bad thing but you should read them to make sure. Over time we will learn more "R speak" and get more comfortable generally working in the console. Again Google and ChatGPT can help you interpert these messages.
+
+# End of Part 1
+
+## {background-image="images/title_slide.png"}
+
+
+
+
+
