@@ -3,6 +3,7 @@ format:
   live-revealjs:
     theme: [simple, slides.scss]
     footer: <http://thegrantlab.org/teaching/>
+from: markdown+emoji
 title: R Language Basics
 subtitle: (Part 1)
 author: Barry Grant
@@ -21,22 +22,22 @@ webr:
 
 ## Background
 
-R is a powerful data programming language that you can use to explore and understand data in an open-ended, highly interactive, iterative way.  
+R is a powerful [data programming language]{style="color:red"} that you can use to explore and understand data in an open-ended, highly interactive, iterative way.  
 <br/>
 Learning R will give you the freedom to experiment and problem solve during data analysis — exactly what we need as bioinformaticians.
 
 
 ## Outline 
-Before delving into working with real data in R, we need to learn the basics of the R language. 
+Before delving into working with real data in R, we need to learn some basics of the R language. 
 In this section, we'll learn how to do simple calculations in R, assign values to variables, and call functions. 
 
 <br/>
-Then, in part 2, we'll look at R's vectors and data.frames, along with the critically important topic of vectorization that underpins how we approach many problems in R.
+Then, in part 2, we'll look in more detail at R's vectors and data.frames, along with the critically important topic of vectorization that underpins how we approach many problems in R.
 
 
 
 ## Logistics
-Below is a interactive "Exercise" **code chunk** that you can edit and run by clicking the [> Run Code]{style="color:white;background-color:#0F6EFD;padding: 0.5px 4px 0.5px 4px;"} button. 
+Below is a interactive "Example Exercise" **code chunk** that you can edit and run by clicking the [> Run Code]{style="color:white;background-color:#0F6EFD;padding: 0.5px 4px 0.5px 4px;"} button. 
 
 <br/>
 Give it a try:
@@ -50,9 +51,12 @@ Give it a try:
 5 + 3
 ```
 
+</br>
+Note that you can click on line 2 and edit the code if you wish.
+
 ## Checking your understanding
 
-We will use these types of code chunks to ask you to complete some missing code, typically indicated by the blank [______]{style="color:black;"} place holder.  
+We will use these types of "code chunks" to ask you to complete some missing code, typically indicated by the blank [______]{style="color:black;"} place holder.  
 </br>
 For example, complete the code below so your answer sums to 10:
 
@@ -106,7 +110,7 @@ OK, so R is a big calculator but it is also so much more than that. For example,
 What's more R allows you to do your analysis in a robust and re-usable way so you can automate things later. 
 
 <br/>
-At the heart of this is saving your answers as you go along (a.k.a. **object assignment**).
+At the heart of this is saving your answers as you go along (a.k.a. [**object assignment**]{style="color:pink"}).
 
 
 ## Object assignment - saving your answers 
@@ -131,7 +135,7 @@ x
 > and in my head I hear, e.g., "x gets 12".
 
 
-## Key point: {.key-slide}
+## :key: Key point:  {.key-slide}
 
 You will make lots of assignments and the little arrow operator `<-` is a pain to type. **Don't be lazy and use `=`**, although it would work, because it will just sow confusion later when we learn about functions. 
 
@@ -161,16 +165,14 @@ only-crazy-folks-use-kabab-case
 ## Typing fedility matters
 Let's make another assignment
 
-</br>
 
 ```{webr}
+#| autorun: true
 r_rocks <- 2 ^ 3  
 ```
 
 </br>
 and then try to inspect this object:
-
-</br>
 
 ```{webr}
 #| exercise: ex_3
@@ -183,7 +185,7 @@ R_rocks
 What happened? What about the 2nd line? Did you run both chunks? Can you fix this?
 
 
-## Key point: {.key-slide}
+## :key: Key point: {.key-slide}
 
 When we program we enter into an implicit contract with the computer. The computer will do tedious computation for you. In return, you will be completely precise in your instructions. 
 
@@ -191,7 +193,7 @@ When we program we enter into an implicit contract with the computer. The comput
 Typos matter. Case matters. The order that you do things matters. 
 
 </br>
-**Therefore get better at typing!**
+[**Therefore get better at typing!**]{style="color:#ff5a5a"}
 
 ---
 
@@ -226,15 +228,15 @@ seq(1,10)
 You can always access the help/documentation of a particular function by using the `help(myFunction)` function, e.g. `help(seq)`. Try it out above.
 
 
-## Key point: {.key-slide}
+## :key: Key point: {.key-slide}
 
 The previous `seq(1, 10)` example above also demonstrates something about how R resolves function arguments. 
 
 </br>
-You can always specify in `name = value` form. But if you do not, R attempts to resolve by position (1st argument, 2nd argument, etc.). 
+You can always specify in `name = value` form e.g. `seq(from=1, to=10, by=1)`. But if you do not, R attempts to resolve by position (1st argument, 2nd argument, etc.). 
 
 </br>
-So above, it is assumed that we want a sequence `from = 1` that goes `to = 10`. Since we didn't specify step size, the default value of `by` in the function definition is used, which ends up being 1 in this case. 
+So in `seq(1, 10)` it is assumed that we want a sequence `from = 1` that goes `to = 10`. Since we didn't specify step size, the default value of `by` in the function definition is used, which ends up being 1 in this case. 
 
 ---
 
@@ -262,7 +264,7 @@ example(seq)
 ```
 
 
-## Key point: {.key-slide}
+## :key: Key point: {.key-slide}
 
 R has built in help accessible with the question mark or `help()` function. 
 
@@ -272,6 +274,8 @@ However, it is rather heavy on nerd-speak and takes some getting used to.
 
 > Remember Google and ChatGPT are your friends. Asking Google and ChatGPT is often the quickest way to get the help you need before you are full on nerd-speak fluent.  
 
+# A brief note about vectors
+We will go into more details of vectors later :wink:
 
 ## Vectors
 
@@ -313,7 +317,7 @@ log(x)/2 + 1
 ```
 
 
-## Key point: {.key-slide}
+## :key: Key point: {.key-slide}
 
 Unlike other languages, R allows us to completely forgo explicitly looping over vectors with a for loop. 
 
@@ -324,10 +328,10 @@ Unlike other languages, R allows us to completely forgo explicitly looping over 
 
 ## Indexing - getting to subsets of your data
 
-An index is a number (or logical) vector that specifies which element in a vector (or other data structure) to retrieve. 
+An index is a number (or logical) vector that specifies which element, or subset of elements, in a vector you want to retrieve. 
 
 </br>
-We can use **indexing** to get or set values to certain elements from a vector:
+Basically, we use **indexing** to get to certain elements of a vector:
 
 ```{webr}
 #| exercise: ex_9
@@ -336,9 +340,9 @@ x <- c(56, 95.3, 0.4)
 x[2]
 ```
 
----
+## Overwritting vector elements
 
-We can change specific vector elements by combining indexing and assignment.
+We can change specific vector elements by combining indexing and assignment. For example:
 
 </br>
 
@@ -351,7 +355,7 @@ x
 
 </br>
 
-Our next session will cover more on **vectors**, and the other major R data structures (**matrices**, **data.frames** and **lists**).
+Our next session will cover more on **vectors**, and the other major R data structures (**data.frames** and **lists**).
 
 ## Data.frames combine vectors into tables
 
@@ -359,7 +363,7 @@ A data.frame is a table (or two-dimensional array-like structure) where columns 
 
 </br>
 
-Data.frames are ideal for managing and analyzing datasets with rows and columns.
+Data.frames are ideal for managing and analyzing datasets with rows and columns like we find in spreadsheets. 
 
 ```{webr}
 #| exercise: ex_11
@@ -369,14 +373,14 @@ df
 
 ## Indexing a data.frame
 
-We can use numeric or logical index values for subseting a data.frame, similer to those we used for vectors.
+We can use numeric or logical index values for subseting a data.frame, similar to those we used for vectors but with one number for rows and the second for columns.
 
 
 ```{webr}
 #| exercise: ex_12
 df <- data.frame(column1 = c("A", "B", "C"), column2 = c(10, 200, 3))
-df[1,]
-df[1,2]
+df[1,]  # return all row one values
+df[1,2] # return row one column two value
 ```
 
 You can also access specific columns via their column name: 
@@ -400,14 +404,19 @@ R will show red text in the console pane in three different situations:
 
 
 
-## Key point: {.key-slide}
+## :key: Key point: {.key-slide}
 
-R reports errors, warnings, and messages in a glaring red font, which makes it seem like it is scolding you. 
+R reports errors, warnings, and messages in a glaring red font, which makes it seem like R is scolding you. 
 
 </br>
-**Don't panic**, it doesn't necessarily mean anything is wrong and indeed it is not always bad thing but you should read them to make sure. Over time we will learn more "R speak" and get more comfortable generally working in the console. Again Google and ChatGPT can help you interpert these messages.
+**Don't panic**, it doesn't necessarily mean anything is wrong and indeed it is not always a bad thing. However, you should read this text to make sure things are as you expect. 
+
+</br>
+Over time we will learn more "R speak" and get more comfortable generally working in the console. Again Google and ChatGPT can help you interpret these important messages.
 
 # End of Part 1
+Well done for getting this far !  
+Feel free to close this now :grinning:
 
 ## {background-image="images/title_slide.png"}
 
