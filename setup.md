@@ -31,7 +31,7 @@ R Binaries for Windows, MacOSX and Linux can be downloaded and installed from [C
 After installing R itself we recommend installing [RStudio Desktop](https://www.rstudio.com/products/rstudio/download/#download) (version 2024.04.2-764 or above), a slick visual interface for R. **N.B.** You will want the Open Source **FREE** version. If you have an older version of RStudio (without Quarto, i.e. pre-2023) you will need to update.
 
 ### RTools for windows
-PC users will benefit from installing [RTool](https://cran.r-project.org/bin/windows/Rtools/). This is needed for building R packages with C/C++/Fortran code from source - something we will describe later in the course. Look for the **Rtools42 installer** link. **N.B. Rtools is only needed for Windows users**.  
+PC users will benefit from installing [RTool](https://cran.r-project.org/bin/windows/Rtools/). This is needed for building R packages with C/C++/Fortran code from source - something we will describe later in the course. Look for the **Rtools_4.4 installer** link (or the one that matches your version of R from above). **N.B. Rtools is ONLY needed for Windows users, Mac users will need xcode command line tools (see below)**.  
 
 
 ### Xcode Command Line Tools (Mac only)
