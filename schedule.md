@@ -29,11 +29,11 @@ For the Winter 2025 quarter we will meet twice a week on Wednesday and Friday at
 | 12| Fri 02/14/25 | [**AlphaFold and Structural Prediction (pt2)**](#12) <br> The new age of structural biology. Structure prediction with AlphaFold2 and the importance of learning from Multiple Sequence Alignments (MSAs). ESM-Fold and large language models for protein structure.                                                                                                                                                                              |
 | 13  | Wed 02/19/25 | [**Transcriptomics, RNA-Seq analysis, and the interpretation of gene lists**](#13) <br> RNA-Seq aligners, Differential expression tests, RNA-Seq statistics, Counts and FPKMs and avoiding P-value misuse, Hands-on analysis of RNA-Seq data with R. Gene functional annotation, Functional databases KEGG, InterPro, GO ontologies and functional enrichment.                                                                                                                                                                                                                                               |
 | 14  |  Fri 02/21/25 | [**RNA-Seq mini project**](#14) <br> Differential expression analysis project with DESeq2 followed by gene enrichment and functional annotation with KEGG, InterPro, and GO ontologies.                                                                                                                                                                                                                                                                                  |
-| 15  | Wed 02/26/25  | [**Investigating pertussis resurgence mini project**](#15) <br> A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
+| 15  | Wed 02/26/25  | [**Hands-on with Git and GitHub**](#15) <br> Why you should use a version control system, How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                                                                                                                         |
 | 16  | Fri 02/28/25  | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
 | 17  | Wed 03/05/25  | [**Analyzing sequencing data in the cloud**](#17) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.                                                                                                                                                                                                                      |
 | 18  | Fri 03/07/25  | [**TBD**](#18) <br> Content to be determined by class vote!   |
-| 19  | Wed 03/12/25  | [**Hands-on with Git and GitHub**](#19) <br> Why you should use a version control system, How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                                                                                                                         |
+| 19  | Wed 03/12/25  | [**Investigating pertussis resurgence mini project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
 | 20 | Fri 03/14/25 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review, Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
 
 
@@ -562,21 +562,21 @@ Differential expression analysis project with DESeq2 followed by gene enrichment
 
 ---
 <a name="15"></a>
-## 15: Mini Project: Investigating Pertussis Resurgence 
+## 15: Hands-on with Git and GitHub
 
 **Topics:** 
-A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to distinct vaccination strategies. This class will be co-taught with **Dr. Bjoern Peters** from the La Jolla Institute for Immunology.  
+Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover syncing your bioinformatics work to date to GitHub.     
 
-- Lab: [Investigating pertussis resurgence mini-project](https://bioboot.github.io/cmi-pb_teaching/introduction/intro_to_cmi-pb.html){:.no-push-state}{:target="_blank"} **submit your lab report to gradescope**, 
-- Lecture Slides: [Large PDF](https://bioboot.github.io/cmi-pb_teaching/slides/slides_class18_2update.pdf){:.no-push-state}{:target="_blank"},  
-- Additional resources: [CDC pertussis tracking data](https://www.cdc.gov/pertussis/surv-reporting/cases-by-year.html){:.no-push-state}{:target="_blank"}, The [CMI-PB resource]( https://www.cmi-pb.org/){:.no-push-state}{:target="_blank"}, Pertussis [annotated timeline](https://bioboot.github.io/cmi-pb_teaching/timeline/pertussis_timeline.html){:.no-push-state}{:target="_blank"}, [CDC numbers]({{ site.baseurl }}/class-material/cdc_pertussis.csv){:.no-push-state}.  
-- Feedback: [**Feedback for Bjoern**](https://forms.gle/SAVof9Hev7V6Ym7k7){:.no-push-state}.
+**Videos:**  
+- 15.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
+
+**Supporting material:**
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/slide_class16.pdf){:.no-push-state}{:target="_blank"},  
+- Lab: [Hands-on with Git and GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
 
 
 **Homework**:   
--  Generate a complete lab report with all sections and question responses for submission to gradescope.  
-- There are no homework quiz questions this week.
-
+Submit yoour GitHub class repository URL on GradeScope.  
 
 
 
@@ -658,21 +658,21 @@ Student topic of choice to be selected from those below:
 
 ---
 <a name="19"></a>
-## 19: Hands-on with Git and GitHub
+## 19: Mini Project: Investigating Pertussis Resurgence 
 
 **Topics:** 
-Today’s lecture and hands-on sessions introduce Git, currently the most popular version control system. We will learn how to perform common operations with Git and RStudio. We will also cover syncing your bioinformatics work to date to GitHub.     
+A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to distinct vaccination strategies. This class will be co-taught with **Dr. Bjoern Peters** from the La Jolla Institute for Immunology.  
 
-**Videos:**  
-- 19.1 - OPTIONAL: [Git for humans](https://youtu.be/eWxxfttcMts){:.no-push-state}{:target="_blank"}, 
-
-**Supporting material:**
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/slide_class16.pdf){:.no-push-state}{:target="_blank"},  
-- Lab: [Hands-on with Git and GitHub]({{ site.baseurl }}/class-material/github_lab.html){:.no-push-state}{:target="_blank"},  
+- Lab: [Investigating pertussis resurgence mini-project](https://bioboot.github.io/cmi-pb_teaching/introduction/intro_to_cmi-pb.html){:.no-push-state}{:target="_blank"} **submit your lab report to gradescope**, 
+- Lecture Slides: [Large PDF](https://bioboot.github.io/cmi-pb_teaching/slides/slides_class18_2update.pdf){:.no-push-state}{:target="_blank"},  
+- Additional resources: [CDC pertussis tracking data](https://www.cdc.gov/pertussis/surv-reporting/cases-by-year.html){:.no-push-state}{:target="_blank"}, The [CMI-PB resource]( https://www.cmi-pb.org/){:.no-push-state}{:target="_blank"}, Pertussis [annotated timeline](https://bioboot.github.io/cmi-pb_teaching/timeline/pertussis_timeline.html){:.no-push-state}{:target="_blank"}, [CDC numbers]({{ site.baseurl }}/class-material/cdc_pertussis.csv){:.no-push-state}.  
+- Feedback: [**Feedback for Bjoern**](https://forms.gle/SAVof9Hev7V6Ym7k7){:.no-push-state}.
 
 
 **Homework**:   
-Submit yoour GitHub class repository URL on GradeScope.  
+-  Generate a complete lab report with all sections and question responses for submission to gradescope.  
+- There are no homework quiz questions this week.
+
 
 
 
