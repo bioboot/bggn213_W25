@@ -32,8 +32,8 @@ For the Winter 2025 quarter we will meet twice a week on Wednesday and Friday at
 | 15  | Wed 02/26/25  | [**Hands-on with Git and GitHub**](#15) <br> Why you should use a version control system, How to perform common operations with Git. Creating and working with your own GitHub repos and navagating and using those of others.                                                                                                                                                                         |
 | 16  | Fri 02/28/25  | [**Essential UNIX for bioinformatics**](#16) <br> Bioinformatics on the command line, Understanding processes, File system structure, Connecting to remote servers, Redirection, streams and pipes, Workflows for batch processing, Launching and using AWS EC2 instances (A.K.A. Virtual Machines).                                                                                                                                                                                                                                              |
 | 17  | Wed 03/05/25  | [**Analyzing sequencing data in the cloud**](#17) <br> A mini-project using AWS EC2 to query, download, decompress and analyze large data sets from the Sequence Read Archive. Practical considerations and best practices for installing bioinformatics software on Linux, transfering large data sets, and performing analysis either locally or on AWS.                                                                                                                                                                                                                      |
-| 18  | Fri 03/07/25  | [**TBD**](#18) <br> Content to be determined by class vote!   |
-| 19  | Wed 03/12/25  | [**Investigating pertussis resurgence mini project**](#19) <br> A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
+| 18  | Fri 03/07/25  | **Investigating pertussis resurgence mini project**](#18) <br> A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate brand new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to vaccination.                                                                                                                                   |
+| 19  | Wed 03/12/25  | [**Mini Project: Cancer Mutation Analysis**](#19) <br> A mini-project for independent analysis of NGS data on tumor specific mutations.   |
 | 20 | Fri 03/14/25 | [**Portfolio building and discussion of bioinformatics in industry**](#20) <br>Course summary and review, Making a public facing GitHub pages portfolio of your bioinformatics work; <br> Livestream interview with leading bioinformatics and genomics scientists from industry. <br> **Project: Find a gene assignment due\!**                                                                                                                                                                                                              |
 
 
@@ -641,24 +641,7 @@ A mini-project whre we use bespoke cloud computing resources to query, download,
 
 ---
 <a name="18"></a>
-## 18: TBD
-
-Student topic of choice to be selected from those below:
-
-- Biological network analysis
-- Cancer genomics
-- Unix tips and tricks for Bioinformatics
-- Structural Bioinformatics and computational drug design
-- Introduction to the tidyverse 
-- Writing R packages
-- Advanced RMarkdown 
-- Creating online work portfolios with GitHub-pages    
-
-
-
----
-<a name="19"></a>
-## 19: Mini Project: Investigating Pertussis Resurgence 
+## 18: Mini Project: Investigating Pertussis Resurgence 
 
 **Topics:** 
 A topical mini-project using web-scraping, JSON based APIs and advanced dplyr and ggplot to investigate new datasets associated with pertussis cases and longitudinal RNA-Seq on the immune response to distinct vaccination strategies. This class will be co-taught with **Dr. Bjoern Peters** from the La Jolla Institute for Immunology.  
@@ -677,8 +660,8 @@ A topical mini-project using web-scraping, JSON based APIs and advanced dplyr an
 
 
 ---
-<a name="22"></a>
-## SKIPED: Mini Project: Cancer Mutation Analysis 
+<a name="19"></a>
+## 19: Mini Project: Cancer Mutation Analysis 
 
 **Topics:** 
 A mini-project for independent analysis of NGS data on tumor specific mutations.   
