@@ -692,7 +692,7 @@ Course review and feedback. Making a public facing GitHub pages portfolio of you
 
 **Supporting material:**
 
-- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class20_F24.pdf){:.no-push-state}{:target="_blank"}, 
+- Lecture Slides: [Large PDF]({{ site.baseurl }}/class-material/class20_W25.pdf){:.no-push-state}{:target="_blank"}, 
 - Ether-pad: [**Feedback**](https://etherpad.wikimedia.org/p/bggn213_w25){:.no-push-state}{:target="_blank"}. 
   
 
